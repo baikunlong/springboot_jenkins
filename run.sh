@@ -1,4 +1,3 @@
-docker ps -a
 # 停止容器
 docker stop springboot_jenkins_8989
 # 删除容器
