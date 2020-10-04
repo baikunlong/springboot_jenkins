@@ -11,6 +11,6 @@ import org.springframework.web.bind.annotation.RestController;
 public class TestController {
     @GetMapping("/test")
     public String test(){
-        return "这是测试jenkins自动化部署的项目。端口-->8989，再来试试push成功了吗333";
+        return "这是测试jenkins自动化部署的项目。端口-->8989，再来试试push成功了吗333,使用docker方式启动！！！";
     }
 }
