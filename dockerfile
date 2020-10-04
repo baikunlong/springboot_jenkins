@@ -9,4 +9,5 @@ add /target/${JAR_FILE} /springboot_worker
 #暴露镜像的端口8989，其他端口不开放
 expose 8989
 #启动项目: java -jar /worker/web-1.0.jar
-CMD ["java","-jar","/springboot_worker/${JAR_FILE}"]
+CMD java -jar /springboot_worker/${JAR_FILE}
+#CMD ["java","-jar","/springboot_worker/${JAR_FILE}"]
